@@ -25,8 +25,13 @@ class PollForm extends Component {
                             <Col componentClass={ControlLabel} sm={12} className="text-left label-field">
                                 Poll Item 1
                             </Col>
-                            <Col sm={12}>
+                            <Col sm={11}>
                                 <FormControl type="text" placeholder="Enter Poll Item 1" className="input-field"/>
+                            </Col>
+                            <Col sm={1}>
+                                <span className="circle-plus">
+                                    <i className="fa fa-plus-circle"></i>
+                                </span>
                             </Col>
                         </FormGroup>
 
@@ -34,8 +39,14 @@ class PollForm extends Component {
                             <Col componentClass={ControlLabel} sm={12} className="text-left label-field">
                                 Poll Item 2
                             </Col>
-                            <Col sm={12}>
+                            <Col sm={11}>
                                 <FormControl type="text" placeholder="Enter Poll Item 2" className="input-field"/>
+                            </Col>
+                            <Col sm={1}>
+                                <span className="circle-plus">
+                                    <i className="fa fa-plus-circle"></i>
+                                    <i className="fa fa-times-circle"></i>
+                                </span>
                             </Col>
                         </FormGroup>
 
