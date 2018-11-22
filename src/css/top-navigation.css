@@ -1,0 +1,10 @@
+.top-navigation .container{
+    width: 100%;
+    padding: 0 30px;
+}
+.top-navigation .navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.top-navigation .navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
